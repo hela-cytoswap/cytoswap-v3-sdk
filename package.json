@@ -1,5 +1,5 @@
 {
-  "name": "@uniswap/v3-sdk",
+  "name": "@swapnity/v3-sdk",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -26,7 +26,7 @@
   "dependencies": {
     "@ethersproject/abi": "^5.0.12",
     "@ethersproject/solidity": "^5.0.9",
-    "@uniswap/sdk-core": "^4",
+    "@swapnity/sdk-core": "^4",
     "@uniswap/swap-router-contracts": "^1.2.1",
     "@uniswap/v3-periphery": "^1.1.1",
     "@uniswap/v3-staker": "1.0.0",
