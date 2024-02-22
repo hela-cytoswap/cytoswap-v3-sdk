@@ -1,4 +1,4 @@
-import { BigintIsh, MaxUint256, Percent, Price, CurrencyAmount, Token } from '@swapnity/sdk-core'
+import { BigintIsh, MaxUint256, Percent, Price, CurrencyAmount, Token } from '@cytoswap/sdk-core'
 import JSBI from 'jsbi'
 import invariant from 'tiny-invariant'
 import { ZERO } from '../internalConstants'
@@ -17,7 +17,7 @@ interface PositionConstructorArgs {
 }
 
 /**
- * Represents a position on a Uniswap V3 Pool
+ * Represents a position on a Cytoswap V3 Pool
  */
 export class Position {
   public readonly pool: Pool

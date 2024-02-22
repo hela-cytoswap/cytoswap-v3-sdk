@@ -1,6 +1,6 @@
 import invariant from 'tiny-invariant'
 
-import { Currency, Price, Token } from '@swapnity/sdk-core'
+import { Currency, Price, Token } from '@cytoswap/sdk-core'
 import { Pool } from './pool'
 
 /**

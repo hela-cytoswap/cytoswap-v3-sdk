@@ -1,4 +1,4 @@
-import { BigintIsh } from '@swapnity/sdk-core'
+import { BigintIsh } from '@cytoswap/sdk-core'
 
 /**
  * Provides information about ticks

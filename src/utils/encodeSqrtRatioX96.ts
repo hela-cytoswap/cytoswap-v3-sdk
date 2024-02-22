@@ -1,5 +1,5 @@
 import JSBI from 'jsbi'
-import { BigintIsh, sqrt } from '@swapnity/sdk-core'
+import { BigintIsh, sqrt } from '@cytoswap/sdk-core'
 
 /**
  * Returns the sqrt ratio as a Q64.96 corresponding to a given ratio of amount1 and amount0

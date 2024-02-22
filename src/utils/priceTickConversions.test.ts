@@ -1,4 +1,4 @@
-import { Price, Token } from '@swapnity/sdk-core'
+import { Price, Token } from '@cytoswap/sdk-core'
 import { tickToPrice } from './index'
 import { priceToClosestTick } from './priceTickConversions'
 

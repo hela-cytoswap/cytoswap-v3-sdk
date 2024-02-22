@@ -1,4 +1,4 @@
-import { Percent, Token } from '@swapnity/sdk-core'
+import { Percent, Token } from '@cytoswap/sdk-core'
 import JSBI from 'jsbi'
 import { Payments } from './payments'
 
