@@ -1,4 +1,4 @@
-import { CurrencyAmount, Ether, Percent, Price, sqrt, Token, TradeType, WETH9 } from '@swapnity/sdk-core'
+import { CurrencyAmount, Ether, Percent, Price, sqrt, Token, TradeType, WETH9 } from '@cytoswap/sdk-core'
 import JSBI from 'jsbi'
 import { FeeAmount, TICK_SPACINGS } from '../constants'
 import { encodeSqrtRatioX96 } from '../utils/encodeSqrtRatioX96'

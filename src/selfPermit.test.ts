@@ -1,4 +1,4 @@
-import { Token } from '@swapnity/sdk-core'
+import { Token } from '@cytoswap/sdk-core'
 import JSBI from 'jsbi'
 import { AllowedPermitArguments, SelfPermit, StandardPermitArguments } from './selfPermit'
 

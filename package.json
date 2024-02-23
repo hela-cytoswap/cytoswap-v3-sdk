@@ -1,20 +1,20 @@
 {
-  "name": "@swapnity/v3-sdk",
+  "name": "@cytoswap/v3-sdk",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
-  "version": "3.10.0",
-  "description": "⚒️ An SDK for building applications on top of Uniswap V3",
+  "version": "1.0.0",
+  "description": "⚒️ An SDK for building applications on top of Cytoswap V3",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Uniswap/uniswap-v3-sdk.git",
+  "repository": "https://gitlab.snapresearch.io/swapnity/cytoswap-v3-sdk",
   "keywords": [
-    "uniswap",
-    "ethereum"
+    "cytoswap",
+    "hela"
   ],
   "module": "dist/v3-sdk.esm.js",
   "scripts": {
@@ -24,18 +24,17 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
+    "@cytoswap/sdk-core": "^1.0.0",
+    "@cytoswap/swap-router-contracts": "^1.0.3",
+    "@cytoswap/v3-periphery": "^1.4.8",
+    "@cytoswap/v3-staker": "^1.0.3",
     "@ethersproject/abi": "^5.0.12",
     "@ethersproject/solidity": "^5.0.9",
-    "@swapnity/sdk-core": "^4",
-    "@uniswap/swap-router-contracts": "^1.2.1",
-    "@uniswap/v3-periphery": "^1.1.1",
-    "@uniswap/v3-staker": "1.0.0",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },
   "devDependencies": {
     "@types/jest": "^24.0.25",
-    "@uniswap/v3-core": "1.0.0",
     "tsdx": "^0.14.1"
   },
   "engines": {
