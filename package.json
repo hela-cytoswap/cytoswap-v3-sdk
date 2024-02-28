@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "⚒️ An SDK for building applications on top of Cytoswap V3",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -24,10 +24,10 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@cytoswap/sdk-core": "^1.0.1",
-    "@cytoswap/swap-router-contracts": "^1.0.3",
-    "@cytoswap/v3-periphery": "^1.4.8",
-    "@cytoswap/v3-staker": "^1.0.3",
+    "@cytoswap/sdk-core": "^1.0.5",
+    "@cytoswap/swap-router-contracts": "^1.0.4",
+    "@cytoswap/v3-periphery": "^1.4.9",
+    "@cytoswap/v3-staker": "^1.0.4",
     "@ethersproject/abi": "^5.0.12",
     "@ethersproject/solidity": "^5.0.9",
     "tiny-invariant": "^1.1.0",
