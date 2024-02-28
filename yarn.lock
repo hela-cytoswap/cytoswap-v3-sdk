@@ -1049,10 +1049,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@cytoswap/sdk-core@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@cytoswap/sdk-core/-/sdk-core-1.0.1.tgz#e56c0de5ce8ad7456729190cda9c04aeb6088f5f"
-  integrity sha512-zhsnbE/cPcOZ4lQ2CSFKxgn6RRKlKc834OpvmACXiz4vbWKdnjbuc2tIYdmOgLyhNoW/h4pfqLYGNon1mltX7A==
+"@cytoswap/sdk-core@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@cytoswap/sdk-core/-/sdk-core-1.0.5.tgz#d3d6be0da48508984b12f31ce50eba563c9fa95c"
+  integrity sha512-iffxzPDJYgxQE2b8v/bqWq18VNrloOj9qo+TE73bKe1qIC9h1NekUkmORoQPcG5x1I3v5YNVIgqQN1o/2zTQ3g==
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
@@ -1061,13 +1061,13 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@cytoswap/swap-router-contracts@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@cytoswap/swap-router-contracts/-/swap-router-contracts-1.0.3.tgz#3915ac2fc69b902e3f50eeb300545bb2fab1f0b8"
-  integrity sha512-/vHk+Z3TG5RKC1R5aFd9JlNSGW6tB2qthL05jaS76sWuSaQXPTRytCIIXdPVUjWgGkVvbBh9CAalbjx0WLxfHg==
+"@cytoswap/swap-router-contracts@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@cytoswap/swap-router-contracts/-/swap-router-contracts-1.0.4.tgz#8445648a3b0964add013bf4d852c6062c8e05f1c"
+  integrity sha512-gDa+zV01d/sf9bTAfHHX/Ej6tPMJBCoU+/JJ1PlPhmtC+O52UGMCkcethudGDFqfiIDkZG6T5sg0agaQgApjcA==
   dependencies:
     "@cytoswap/v3-core" "^1.0.2"
-    "@cytoswap/v3-periphery" "^1.4.8"
+    "@cytoswap/v3-periphery" "^1.4.9"
     "@openzeppelin/contracts" "3.4.2-solc-0.7"
     "@uniswap/v2-core" "^1.0.1"
     dotenv "^14.2.0"
@@ -1078,10 +1078,10 @@
   resolved "https://registry.yarnpkg.com/@cytoswap/v3-core/-/v3-core-1.0.2.tgz#c743f365547a2a23cc396c04e128d5d78f98e5bf"
   integrity sha512-b9EQVBjk54sL4A60yequvrNY0pB3lxArfIUZh7DW7uyygN7SDxW3663Gt5aZ1YuA1014ux/gua3R9I5+U1gCZg==
 
-"@cytoswap/v3-periphery@^1.4.8":
-  version "1.4.8"
-  resolved "https://registry.yarnpkg.com/@cytoswap/v3-periphery/-/v3-periphery-1.4.8.tgz#b7684e416ec558732447ded6c33b50b5cfaa3fe2"
-  integrity sha512-nv51dNfbyX+x0Sm94FlDoYE7BdUtULLSK29/YaZylylP+7JJp4iBFl50b3OcY/IsbERTx7TqPNF5V59Ia42rlg==
+"@cytoswap/v3-periphery@^1.4.9":
+  version "1.4.9"
+  resolved "https://registry.yarnpkg.com/@cytoswap/v3-periphery/-/v3-periphery-1.4.9.tgz#c37fcff8c4f49f09324728ca92b3b4a7941635ea"
+  integrity sha512-e49dl/JzaJmG2RBg1yjgG7K0eEBXZU+X0nlfTs017Ryg3l/DT91xAljJ0zhOx0NlEqJ0AkPERDnPKYlXs/TDCg==
   dependencies:
     "@cytoswap/v3-core" "^1.0.2"
     "@openzeppelin/contracts" "3.4.2-solc-0.7"
@@ -1089,13 +1089,13 @@
     "@uniswap/v2-core" "^1.0.1"
     base64-sol "1.0.1"
 
-"@cytoswap/v3-staker@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@cytoswap/v3-staker/-/v3-staker-1.0.3.tgz#ee0f254792cf8f4707a413412e257adb05bc2ff2"
-  integrity sha512-2NM0R1jNdxBJ0qBnr61DFA1F+F5dN0/SKi/OOu9549ojovyASJiER8k4qqFe5lp9yH/3t1mXNV2QEr+mOtCVDg==
+"@cytoswap/v3-staker@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@cytoswap/v3-staker/-/v3-staker-1.0.4.tgz#c79aab9a68073ca88a9ddbeaa5c9a6cc014dd997"
+  integrity sha512-+88TBcpRTjasxLW8QcPWZB6dODE57ZG5todiIm4VsPvF/3633XxjOK1xLKlxfkoA5cPK3n1Vpl+soYmvjRTlUg==
   dependencies:
     "@cytoswap/v3-core" "^1.0.2"
-    "@cytoswap/v3-periphery" "^1.4.8"
+    "@cytoswap/v3-periphery" "^1.4.9"
     "@openzeppelin/contracts" "3.4.1-solc-0.7-2"
 
 "@ethersproject/abi@^5.0.12":
